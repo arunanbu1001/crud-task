@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block body %}
+
+<div class="row">
+    <div class="col-5 mx-auto">
+        <h2>Add students</h2>
+        <hr>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <input type="text" name="name" id="name" required="1" placeholder="Enter the name of the student"
+                    class="form-control">
+                    <br>
+                <input type="text" name="age" id="age" required="1" placeholder="Enter the age of the student"
+                    class="form-control"><br>
+                <input type="text" name="language" id="language" required="1"
+                    placeholder="Enter the language of the student" class="form-control">
+                    <br>
+                <input type="text" name="preference" id="preference" required="1"
+                    placeholder="Enter the preference of the student" class="form-control">
+                    <br>
+                <button type="sumbit" value="submit" class="btn btn-primary form-control">submit
+                    </button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock body %}
